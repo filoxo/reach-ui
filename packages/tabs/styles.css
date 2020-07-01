@@ -18,6 +18,7 @@
 [data-reach-tab] {
   display: inline-block;
   border: none;
+  border-bottom: 1px solid transparent;
   padding: 0.25em 0.5em;
   margin: 0;
   background: none;
@@ -38,5 +39,5 @@
 }
 
 [data-reach-tab][data-selected] {
-  border-bottom: 1px solid currentColor;
+  border-bottom-color: currentColor;
 }
